@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.print("Enter your first subject marks: ");
+	int a = sc.nextInt();
+	System.out.print("Enter your second subject marks: ");
+	int b = sc.nextInt();
+	System.out.print("Enter your third subject marks: ");
+	int c = sc.nextInt();
+	int sum=a+b+c;
+    double average = sum/3.0;
+	System.out.println("Average of "+a +", "+ b +" and " +c +" is "+ average);
+	}
+}
