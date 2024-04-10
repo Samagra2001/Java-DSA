@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String[]args){
+        Scanner sc= new Scanner(System.in);
+        System.out.print("Enter the cost price: ");
+        int a = sc.nextInt();
+         System.out.print("Enter the selling price: ");
+        int b = sc.nextInt();
+        if(a>b){
+           int c=a-b;
+            System.out.print("Profit of "+c);
+        }
+        else{
+           int d=b-a;
+            System.out.print("Loss of "+d);
+        }
+    }
+}
